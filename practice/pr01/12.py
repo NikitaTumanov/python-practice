@@ -1,6 +1,6 @@
 import math
 
-def func(x):
+def f12(x):
     if x<23:
         return (x**8+46*x**4)
     elif 23<=x<66:
@@ -12,5 +12,5 @@ def func(x):
     elif x>=249:
         return (86*x**3+x)
 
-print(f'{func(153):.2e}')
-print(f'{func(240):.2e}')
+print(f'{f12(153):.2e}')
+print(f'{f12(240):.2e}')

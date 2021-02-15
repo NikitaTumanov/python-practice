@@ -1,4 +1,4 @@
-def func(n,m):
+def f13(n, m):
     a=0
     b=0
     for i in range(1,n+1):
@@ -8,5 +8,5 @@ def func(n,m):
 
     return (a-(b/55))
 
-print(f'{func(26,19):.2e}')
-print(f'{func(82,98):.2e}')
+print(f'{f13(26, 19):.2e}')
+print(f'{f13(82, 98):.2e}')
