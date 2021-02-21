@@ -1,11 +1,11 @@
-def fast_pow(x, y, res=1):
-    while y > 0:
-        if y == 1:
-            return res * x
-        if y % 2 == 1:
-            res *= x
-        x *= x
-        y //= 2
+def fast_pow(n, m, res=1):
+    while m > 0:
+        if m == 1:
+            return res * n
+        if m % 2 == 1:
+            res *= n
+        n *= n
+        m //= 2
     return res
 
 def test_fast_pow():
