@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78373fb4-da4d-4ae7-ae27-4fc1802e52b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../practice01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/.idea/ПР 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/1_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/1_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/1_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice01/1_4.py" beforeDir="false" />
-    </list>
+    <list default="true" id="78373fb4-da4d-4ae7-ae27-4fc1802e52b7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pr01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -89,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613389232377</updated>
       <workItem from="1613389233458" duration="48000" />
+      <workItem from="1613987269069" duration="136000" />
     </task>
     <servers />
   </component>
@@ -105,12 +96,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="278" key="FileChooserDialogImpl" timestamp="1613389280315">
+    <state x="267" y="278" key="FileChooserDialogImpl" timestamp="1613987382347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="267" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613389280315" />
+    <state x="267" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613987382347" />
     <state x="0" y="168" key="SettingsEditor" timestamp="1613389271709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
