@@ -29,16 +29,6 @@ def test_p2(program_2, prop, res):
     assert program_2.invoke(prop) is res
 
 
-def test_p2_input(monkeypatch):
-    inputs = ['QWERTYuiop,?/0']
-
-    def custom_input(x):
-        return inputs.pop()
-
-    monkeypatch.setattr('builtins.input', custom_input)
-    assert p2_input() is True
-
-
 def p2(password: str) -> bool:
     """
     Программа для тестирования 2.
@@ -49,16 +39,3 @@ def p2(password: str) -> bool:
     return bool(re.match(
         r'^(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)(?=.*?[.,;!?]).{6,}$',
         password))
-
-
-def p2_input() -> bool:
-    """
-    Программа для тестирования 2 (с вводом значения).
-    Функция проверки пароля на безопасность (например: безопасный пароль
-    содержит комбинирование шести или больше строчных и прописных букв,
-    плюс знаки препинания и цифры).
-    """
-    x = input('Введите пароль:')
-    return bool(re.match(
-        r'^(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)(?=.*?[.,;!?]).{6,}$',
-        x))
